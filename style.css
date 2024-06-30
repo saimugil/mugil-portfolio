@@ -1,0 +1,113 @@
+body{
+   
+    margin: 0px;
+    background-color: black;
+}
+.home{
+    
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 0px;
+}
+
+h1.nav{
+    
+    flex: span 2;
+    font-size: 43.7px;
+    font-family: "Roboto",sans-serif;
+}
+.robo1{
+    
+    align-self: center;
+}
+p.nav{
+    padding: 10px;
+    align-content: end;
+    font-family: "Roboto Mono",sans-serif;
+    color: #545454;
+    font-size: 22.4px;
+}
+p.nav:hover{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.navbar{
+
+    position: fixed;
+    top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    color: white;
+}
+.about{
+    position: relative;
+    padding-top: 100px;
+    background-color: black;
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about-t{
+    color: white;
+    width: 500px;
+}
+.about-t p{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.skills{
+    color: white;
+    background-color: black;
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bottom-container{
+    background-color: #545454;
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 50px 0px 20px;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+a.footer-link{
+
+    margin: 0 20px 40px;
+    color: rgb(204, 194, 194);
+
+}
+.copyright{
+    margin-top: 40px;
+}
+.wall-e{
+    align-self: self-end;
+}

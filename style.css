@@ -134,4 +134,7 @@ a.footer-link{
     .robo1{
         border: 0;
     }
+    .dis{
+        visibility: hidden;
+    }
   }

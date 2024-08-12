@@ -59,6 +59,7 @@ p.nav:hover{
     color: white;
 }
 .about{
+    width: 100%;
     position: relative;
     padding-top: 100px;
     background-color: black;
@@ -119,22 +120,32 @@ a.footer-link{
 .wall-e{
     align-self: self-end;
 }
+@media (max-width: 771px){
+    .dis{
+        visibility: hidden;
+    }
+}
 @media (max-width: 600px) {
 
     /* CSS for screens below or equal to 600px wide */
     .navbar{
-        height: 600px;
-        flex-direction: row;
-        justify-content: center;
+        
+        margin: 0;
+        height: 40vh;
+        flex-direction: column;
+        justify-content: flex-start;
     }
     .nav a{
-        display: block;
+        
         align-self: flex-end;
     }
     .robo1{
         border: 0;
     }
     .dis{
+        visibility: hidden;
+    }
+    .wall-e{
         visibility: hidden;
     }
   }
